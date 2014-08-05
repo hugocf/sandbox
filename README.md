@@ -6,3 +6,5 @@ Playground for testing Git and GitHub stuff: notifications, mentions, commits, A
 ---
 
 Bla do bla
+
+Anothe commit
