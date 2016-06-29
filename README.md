@@ -9,8 +9,11 @@ Bla do bla
 
 Another commit
 
-
 Testing edits from mobile! 😉
 
--- 
-Hugo
+---
+
+link to
+
+- [folder](folder)
+- [folder/](folder/)
