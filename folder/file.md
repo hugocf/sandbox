@@ -1,6 +1,6 @@
 # H1
 
-See achor [below](#h2-anchor)
+See anchor [below](#h2-anchor)
 
 See [another file](subfolder/subsubfolder/anotherfile.md)
 
