@@ -4,7 +4,7 @@ See [another file](subfolder/subsubfolder/anotherfile.md)
 
 See [subsubfolder](subfolder/subsubfolder)
 
-See [another folder > another file](../another-folder/another-file.md)
+See [another folder > another file](/another-folder/another-file.md)
 
 ## H2
 
