@@ -1,5 +1,7 @@
 # H1
 
+See [issues](https://github.com/hugocf/sandbox/issues)
+
 See anchor [below](#h2-anchor)
 
 See [another file](subfolder/subsubfolder/anotherfile.md)
