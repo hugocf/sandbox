@@ -5,6 +5,11 @@ Playground for testing Git and GitHub stuff: notifications, mentions, commits, A
 
 ---
 
+- [ ] does
+- [ ] this
+- [ ] work
+- [ ] here?
+
 Bla do bla
 
 Another commit
