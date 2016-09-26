@@ -5,6 +5,8 @@ Playground for testing Git and GitHub stuff: notifications, mentions, commits, A
 
 ---
 
+See file [about.pdf](about.pdf)
+
 - [ ] does
 - [ ] this
 - [ ] work
