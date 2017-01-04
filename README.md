@@ -31,3 +31,7 @@ link to
 
 - [folder](folder)
 - [folder/](folder/)
+
+link to 
+
+- [folder/file.md](folder/file.md)
