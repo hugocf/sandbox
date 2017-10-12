@@ -25,8 +25,6 @@ Testing edits from mobile! 😉
 
 - Edited in Git2Go
 
----
-
 link to
 
 - [folder](folder)
