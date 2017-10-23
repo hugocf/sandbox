@@ -3,8 +3,6 @@ sandbox
 
 Playground for testing Git and GitHub stuff: notifications, mentions, commits, API calls, etc. 
 
-link to user [@hugocf](https://github.com/hugocf) ?
-
 ---
 
 See file [about.pdf](about.pdf)
