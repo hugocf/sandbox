@@ -15,8 +15,6 @@ See file [about.pdf](about.pdf)
 - [testing this issues thing](https://github.com/hugocf/sandbox/issues/1)
 
 
-Bla do bla
-
 Another commit
 
 Testing edits from mobile! 😉
