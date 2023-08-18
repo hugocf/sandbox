@@ -39,12 +39,13 @@ jobs:
       # Runs an external script using the runners shell
       - name: Run an external script
         id: external
-        run: ./bin/script.sh
+        run: ./bin/script.sh ${{steps.multi-line.outputs.TEST_YML}}
 
       # Pick up stuff from other steps
       - name: Show output
         run: |
           echo $GITHUB_OUTPUT
           cat $GITHUB_OUTPUT
-          echo TEST_YML: ${{steps.multi-line.outputs.TEST_YML}}
-          echo TEST_SH: ${{steps.external.outputs.TEST_SH}}
+          echo old TEST_YML: ${{steps.multi-line.outputs.TEST_YML}}
+          echo new TEST_YML: ${{steps.external.outputs.TEST_YML}}
+          echo new TEST_SH: ${{steps.external.outputs.TEST_SH}}
