@@ -31,5 +31,5 @@ jobs:
           echo test, and deploy your project.
 
       # Runs an external script using the runners shell
-      - name: Run a multi-line script
+      - name: Run an external script
         run: ./bin/script.sh
