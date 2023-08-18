@@ -14,6 +14,6 @@ ls -l
 header Current env:
 env | sort
 
-echo old TEST_YML=$1
+echo old TEST_YML: $1
 echo TEST_YML=new >> $GITHUB_OUTPUT
 echo TEST_SH=test >> $GITHUB_OUTPUT
