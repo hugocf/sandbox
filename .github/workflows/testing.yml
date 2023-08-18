@@ -45,5 +45,6 @@ jobs:
       - name: Show output
         run: |
           echo $GITHUB_OUTPUT
+          cat $GITHUB_OUTPUT
           echo TEST_YML: ${{steps.multi-line.outputs.TEST_YML}}
           echo TEST_SH: ${{steps.external.outputs.TEST_SH}}
