@@ -1,21 +1,504 @@
+# Placeholders generated from https://github.com/springernature/anura.git
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-artoo-detoo
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-bactrian
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-barnacle
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-branding
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-cockerel
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-documentation
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-dromedary
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-ebm-finder
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-editorial-data
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-file-storage
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-grafana
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-grid-proxy
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-journal-config
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-journal-migration
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-lipstick
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-maintenance
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-manuscript
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-mascara
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-mynah
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-pigeon
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-piglet
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-prs-sender
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-quality-control
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-silk-road
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-sink-diverting-sparkpost
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-sonic
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-sonic-kong
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-sow
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-submission-database
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: anura-submission-frontend
-  title: Submission Frontend
-  description: Submissions main app, where the author can submit their manuscript. Renders in HTML the JSON pages received from `anura-submission-web-bff`.
-  tags:
-    - shunter
-    - javascript
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
 spec:
   type: backend-service
   lifecycle: production
-  owner: snapp-author-experience
+  owner: snapp
   system: snapp
-  dependsOn:
-    - Component:anura-submission-web-bff
-  #   - Resource:submissions-db
-  # providesApis:
-  #   - api-name
-  consumesApis:
-    - anura-file-storage-api
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-submission-redirect
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-submission-web-bff
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-transfers-router
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-transfers-service
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: snapp-data
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tools
+  links:
+    - url: https://github.com/springernature/anura.git
+      title: Repository Source
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp
+  system: snapp
