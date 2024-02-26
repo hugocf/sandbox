@@ -724,19 +724,19 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: anura-file-storage
-  links:
-    - url: https://github.com/springernature/anura/tree/master/anura-file-storage
-      title: Repository Source
-spec:
-  type: backend-service
-  lifecycle: production
-  owner: snapp
-  system: snapp
+#---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: anura-file-storage
+#   links:
+#     - url: https://github.com/springernature/anura/tree/master/anura-file-storage
+#       title: Repository Source
+# spec:
+#   type: backend-service
+#   lifecycle: production
+#   owner: snapp
+#   system: snapp
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
