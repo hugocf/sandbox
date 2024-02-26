@@ -1,11 +1,11 @@
-# Placeholders generated from https://github.com/springernature/anura.git
+# Placeholders generated from https://github.com/springernature/anura
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: anura-artoo-detoo
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-artoo-detoo
       title: Repository Source
 spec:
   type: backend-service
@@ -18,7 +18,7 @@ kind: Component
 metadata:
   name: anura-bactrian
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-bactrian
       title: Repository Source
 spec:
   type: backend-service
@@ -31,7 +31,7 @@ kind: Component
 metadata:
   name: anura-barnacle
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-barnacle
       title: Repository Source
 spec:
   type: backend-service
@@ -44,7 +44,7 @@ kind: Component
 metadata:
   name: anura-branding
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-branding
       title: Repository Source
 spec:
   type: backend-service
@@ -57,7 +57,7 @@ kind: Component
 metadata:
   name: anura-cockerel
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-cockerel
       title: Repository Source
 spec:
   type: backend-service
@@ -70,7 +70,7 @@ kind: Component
 metadata:
   name: anura-documentation
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-documentation
       title: Repository Source
 spec:
   type: backend-service
@@ -83,7 +83,7 @@ kind: Component
 metadata:
   name: anura-dromedary
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-dromedary
       title: Repository Source
 spec:
   type: backend-service
@@ -96,7 +96,7 @@ kind: Component
 metadata:
   name: anura-ebm-finder
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-ebm-finder
       title: Repository Source
 spec:
   type: backend-service
@@ -109,7 +109,7 @@ kind: Component
 metadata:
   name: anura-editorial-data
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-editorial-data
       title: Repository Source
 spec:
   type: backend-service
@@ -122,7 +122,7 @@ kind: Component
 metadata:
   name: anura-file-storage
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-file-storage
       title: Repository Source
 spec:
   type: backend-service
@@ -135,7 +135,7 @@ kind: Component
 metadata:
   name: anura-grafana
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-grafana
       title: Repository Source
 spec:
   type: backend-service
@@ -148,7 +148,7 @@ kind: Component
 metadata:
   name: anura-grid-proxy
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-grid-proxy
       title: Repository Source
 spec:
   type: backend-service
@@ -161,7 +161,7 @@ kind: Component
 metadata:
   name: anura-journal-config
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-journal-config
       title: Repository Source
 spec:
   type: backend-service
@@ -174,7 +174,7 @@ kind: Component
 metadata:
   name: anura-journal-migration
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-journal-migration
       title: Repository Source
 spec:
   type: backend-service
@@ -187,7 +187,7 @@ kind: Component
 metadata:
   name: anura-lipstick
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-lipstick
       title: Repository Source
 spec:
   type: backend-service
@@ -200,7 +200,7 @@ kind: Component
 metadata:
   name: anura-maintenance
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-maintenance
       title: Repository Source
 spec:
   type: backend-service
@@ -213,7 +213,7 @@ kind: Component
 metadata:
   name: anura-manuscript
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-manuscript
       title: Repository Source
 spec:
   type: backend-service
@@ -226,7 +226,7 @@ kind: Component
 metadata:
   name: anura-mascara
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-mascara
       title: Repository Source
 spec:
   type: backend-service
@@ -239,7 +239,7 @@ kind: Component
 metadata:
   name: anura-mynah
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-mynah
       title: Repository Source
 spec:
   type: backend-service
@@ -252,7 +252,7 @@ kind: Component
 metadata:
   name: anura-pigeon
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-pigeon
       title: Repository Source
 spec:
   type: backend-service
@@ -265,7 +265,7 @@ kind: Component
 metadata:
   name: anura-piglet
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-piglet
       title: Repository Source
 spec:
   type: backend-service
@@ -278,7 +278,7 @@ kind: Component
 metadata:
   name: anura-prs-sender
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-prs-sender
       title: Repository Source
 spec:
   type: backend-service
@@ -291,7 +291,7 @@ kind: Component
 metadata:
   name: anura-quality-control
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-quality-control
       title: Repository Source
 spec:
   type: backend-service
@@ -304,7 +304,7 @@ kind: Component
 metadata:
   name: anura-silk-road
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-silk-road
       title: Repository Source
 spec:
   type: backend-service
@@ -317,7 +317,7 @@ kind: Component
 metadata:
   name: anura-sink-diverting-sparkpost
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-sink-diverting-sparkpost
       title: Repository Source
 spec:
   type: backend-service
@@ -330,7 +330,7 @@ kind: Component
 metadata:
   name: anura-sonic
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-sonic
       title: Repository Source
 spec:
   type: backend-service
@@ -343,7 +343,7 @@ kind: Component
 metadata:
   name: anura-sonic-kong
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-sonic-kong
       title: Repository Source
 spec:
   type: backend-service
@@ -356,7 +356,7 @@ kind: Component
 metadata:
   name: anura-sow
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-sow
       title: Repository Source
 spec:
   type: backend-service
@@ -369,7 +369,7 @@ kind: Component
 metadata:
   name: anura-submission-database
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-submission-database
       title: Repository Source
 spec:
   type: backend-service
@@ -382,7 +382,7 @@ kind: Component
 metadata:
   name: anura-submission-frontend
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-submission-frontend
       title: Repository Source
 spec:
   type: backend-service
@@ -395,7 +395,7 @@ kind: Component
 metadata:
   name: anura-submission-redirect
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-submission-redirect
       title: Repository Source
 spec:
   type: backend-service
@@ -408,7 +408,7 @@ kind: Component
 metadata:
   name: anura-submission-web-bff
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-submission-web-bff
       title: Repository Source
 spec:
   type: backend-service
@@ -421,7 +421,7 @@ kind: Component
 metadata:
   name: anura-transfers-router
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-transfers-router
       title: Repository Source
 spec:
   type: backend-service
@@ -434,7 +434,7 @@ kind: Component
 metadata:
   name: anura-transfers-service
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/anura-transfers-service
       title: Repository Source
 spec:
   type: backend-service
@@ -447,7 +447,7 @@ kind: Component
 metadata:
   name: snapp-data
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/snapp-data
       title: Repository Source
 spec:
   type: backend-service
@@ -460,7 +460,7 @@ kind: Component
 metadata:
   name: tools
   links:
-    - url: https://github.com/springernature/anura.git
+    - url: https://github.com/springernature/anura/tree/master/tools
       title: Repository Source
 spec:
   type: backend-service
