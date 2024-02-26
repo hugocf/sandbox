@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-submission-frontend
+  title: Submission Frontend
+  description: Submissions main app, where the author can submit their manuscript. Renders in HTML the JSON pages received from `anura-submission-web-bff`.
+  tags:
+    - shunter
+    - javascript
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp-author-experience
+  system: snapp
+  dependsOn:
+    - Component:anura-submission-web-bff
+  #   - Resource:submissions-db
+  # providesApis:
+  #   - api-name
+  consumesApis:
+    - anura-file-storage-api
