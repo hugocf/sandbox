@@ -1,5 +1,4 @@
 # Placeholders generated from https://github.com/springernature/anura.git
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
