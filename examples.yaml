@@ -1,20 +1,147 @@
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: content-acquisition
+  title: Content Acquisition
+  description: |
+    Ensure that researchers, reviewers and editors can submit, review and edit content is the most efficient, seamless way.
+    
+    This spans from the submission and peer review workflow, to payment, rights and licencing prior to publication.
+  # HF: Not rendered — see how to set it as tech docs?
+  # links:
+  #   - url: https://ca.public.springernature.app/
+  #     title: CA Docs
+spec:
+  owner: content-acquisition
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: snapp
+  title: Snapp
+  description: Springer Nature Article Processing Platform (Snapp). Peer review workflow from initial submission to final publication decision.
+  links:
+    - url: https://ca.public.springernature.app/snapp/
+      title: Snapp Docs
+spec:
+  owner: snapp
+  domain: content-acquisition
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: oasis
+  title: OASiS
+  description: Open Access Systems Solution (OASiS). Post-acceptance payment, rights and licencing workflow after an article has been accepted for publication.
+  links:
+    - url: https://ca.public.springernature.app/oasis/
+      title: OASiS Docs
+spec:
+  owner: oasis
+  domain: content-acquisition
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: anura-submission-frontend
-  title: Submission Frontend
-  description: Submissions main app, where the author can submit their manuscript. Renders in HTML the JSON pages received from `anura-submission-web-bff`.
+  name: anura-file-storage
+  title: File Storage
+  description: Wrapper around Google Cloud Storage. Holds operations around files, e.g. upload, download, scan, delete.
   tags:
-    - shunter
-    - javascript
+    - kotlin
+    - http4k
+  annotations:
+    github.com/project-slug: springernature/anura
+    concourse.halfpipe.io/pipeline-name: anura/anura-file-storage
+    snpaas.eu/org: content-acquisition
+    snpaas.eu/space: shared-live
+    snpaas.eu/application: anura-file-storage
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: snapp-author-experience
+  system: snapp # HF: although, oasis also uses it to store receipts, so it’s more CA than Snapp (but in Backstage CA is a "Domain" not a "System")
+  dependsOn:
+    - Resource:anura-file-storage-bucket
+  providesApis:
+    - anura-file-storage-api
+  consumesApis:
+    - external-systems/scanii-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: anura-file-storage-bucket
+  title: File Storage Buckets
+  description: Google Cloud Storage buckets to store binary blobs for the File Storage service
+spec:
+  type: gcs-bucket
+  owner: snapp-author-experience
+  system: snapp
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: anura-file-storage-api
+  title: File Storage API
+  description: Holds operations around files, e.g. upload, download, scan, delete.
+spec:
+  type: markdown
+  lifecycle: production
+  owner: snapp-author-experience
+  system: snapp
+  definition:
+    $text: https://github.com/springernature/anura/blob/master/anura-file-storage/docs/api-documentation.md
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  namespace: external-systems
+  name: scanii-api
+  title: Scanii API
+  description: SaaS with a simple REST API to identify unsafe content and malware.
+  links:
+    - url: https://scanii.com/
+      title: Scanii Content Identification Service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: Uva Software
+  definition: 
+    $text: https://uvasoftware.github.io/openapi/v22/v22.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: anura-submission-web-bff
+  title: Submission Flow
+  description: Submissions main app, where the author can submit their manuscript. Used to be the back-end for the `anura-submission-frontend`` but is becoming a full stack web app.
 spec:
   type: backend-service
   lifecycle: production
   owner: snapp-author-experience
   system: snapp
-  dependsOn:
-    - Component:anura-submission-web-bff
-  #   - Resource:submissions-db
+  # dependsOn:
+  #   - resource:submissions-db
+  # providesApis:
+  #   - api-name
+  consumesApis:
+    - anura-file-storage-api
+---
+$text: https://github.com/hugocf/sandbox/blob/master/example.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: oasis-mirage
+  title: Mirage
+  description: Gives the author a UI to interact with OASiS
+spec:
+  type: backend-service
+  lifecycle: production
+  owner: oasis
+  system: oasis
+  # dependsOn:
+  #   - resource:default/resource-name
   # providesApis:
   #   - api-name
   consumesApis:
