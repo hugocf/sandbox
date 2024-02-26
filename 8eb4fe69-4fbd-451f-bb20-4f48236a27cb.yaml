@@ -383,19 +383,19 @@ spec:
   lifecycle: production
   owner: oasis
   system: oasis
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: oasis-mirage
-  links:
-    - url: https://github.com/springernature/online-publication-agreements/tree/master/oasis-mirage
-      title: Repository Source
-spec:
-  type: backend-service
-  lifecycle: production
-  owner: oasis
-  system: oasis
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: oasis-mirage
+#   links:
+#     - url: https://github.com/springernature/online-publication-agreements/tree/master/oasis-mirage
+#       title: Repository Source
+# spec:
+#   type: backend-service
+#   lifecycle: production
+#   owner: oasis
+#   system: oasis
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -1010,19 +1010,19 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: anura-submission-web-bff
-  links:
-    - url: https://github.com/springernature/anura/tree/master/anura-submission-web-bff
-      title: Repository Source
-spec:
-  type: backend-service
-  lifecycle: production
-  owner: snapp
-  system: snapp
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: anura-submission-web-bff
+#   links:
+#     - url: https://github.com/springernature/anura/tree/master/anura-submission-web-bff
+#       title: Repository Source
+# spec:
+#   type: backend-service
+#   lifecycle: production
+#   owner: snapp
+#   system: snapp
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
