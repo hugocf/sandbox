@@ -1,3 +1,5 @@
+# Placeholders generated from https://github.com/springernature/anura.git
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -10,7 +12,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -24,7 +25,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -38,7 +38,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -52,7 +51,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -66,7 +64,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -80,7 +77,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -94,7 +90,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -108,7 +103,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -122,7 +116,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -136,7 +129,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -150,7 +142,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -164,7 +155,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -178,7 +168,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -192,7 +181,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -206,7 +194,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -220,7 +207,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -234,7 +220,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -248,7 +233,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -262,7 +246,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -276,7 +259,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -290,7 +272,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -304,7 +285,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -318,7 +298,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -332,7 +311,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -346,7 +324,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -360,7 +337,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -374,7 +350,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -388,7 +363,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -402,7 +376,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -416,7 +389,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -430,7 +402,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -444,7 +415,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -458,7 +428,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -472,7 +441,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -486,7 +454,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
