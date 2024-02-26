@@ -1,5 +1,7 @@
 apiVersion: backstage.io/v1alpha1
+kind: Component
 $yaml: ./example1.yaml
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Component
 $text: ./example3.yaml
