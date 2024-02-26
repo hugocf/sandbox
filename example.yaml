@@ -13,7 +13,7 @@ spec:
   owner: snapp-author-experience
   system: snapp
   dependsOn:
-    - Component: anura-submission-web-bff
+    - Component:anura-submission-web-bff
   #   - Resource:submissions-db
   # providesApis:
   #   - api-name
