@@ -1062,19 +1062,6 @@ spec:
   lifecycle: production
   owner: snapp
   system: snapp
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: tools
-  links:
-    - url: https://github.com/springernature/anura/tree/master/tools
-      title: Repository Source
-spec:
-  type: backend-service
-  lifecycle: production
-  owner: snapp
-  system: snapp
 
 # Placeholders generated from https://github.com/springernature/journal-management
 
@@ -1491,19 +1478,6 @@ metadata:
   name: support-tools
   links:
     - url: https://github.com/springernature/karez/tree/master/support-tools
-      title: Repository Source
-spec:
-  type: backend-service
-  lifecycle: production
-  owner: snapp
-  system: snapp
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: tools
-  links:
-    - url: https://github.com/springernature/karez/tree/master/tools
       title: Repository Source
 spec:
   type: backend-service
