@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-component
+  name: example-1-component
   links:
     - url: https://github.com/hugocf/sandbox
       title: Repository Source
